@@ -1,9 +1,7 @@
 spring:
   data:
     mongodb:
-      database: banca
-      port: 27017
-      host: localhost
+      uri: mongodb://localhost:27017/banca
 springdoc:
   api-docs:
     enabled: true
